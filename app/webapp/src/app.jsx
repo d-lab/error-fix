@@ -51,13 +51,20 @@ function MainApp() {
     return (
       <section className="hero is-medium is-link">
         <div className="hero-body">
-          <div className="title is-3">Sample task</div>
+          <div className="title is-3">Pick up similar entities</div>
           <div className="subtitle is-4">
             <p>
-              This is sample introduction about the task.
+              You will be asked to pick up similar entities or the entities of
+              the <b>same class</b>. Please read the detailed instructions and
+              make the selection by clicking on the entities.
             </p>
             <p>
-              This is sample instruction and consent form. Information sheet:{" "}
+              We are conducting an academic study about Machine Learning and
+              Knowledge Graph. We need to understand if humans (crowd workers)
+              make the same classification decision as machine learning
+              algorithms do. Please read the following questions carefully and
+              make your decision (selection). You will receive the credit for
+              performing our task. Information sheet:{" "}
               <a
                 href={"http://143.244.201.53:9000/infoSheet/"}
                 target={"_blank"}

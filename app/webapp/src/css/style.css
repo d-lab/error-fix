@@ -67,3 +67,7 @@ code {
 p {
   margin: 5px 0 5px 0;
 }
+
+.align-middle {
+  vertical-align: middle !important;
+}
